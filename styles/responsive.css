@@ -1,0 +1,19 @@
+@media screen and (max-width:600px) {
+    .Popular-Tour-part{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .popu-img{
+        padding-right: 70px;
+    }
+    .popular-tour-title{
+        text-align: center;
+    }
+    .parfect-place-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
