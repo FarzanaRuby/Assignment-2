@@ -1,8 +1,17 @@
 @media screen and (max-width:600px) {
+    .banner-section{
+        width: 450px;
+        flex-direction: column;
+      
+      
+.
+    }
+    .text{
+margin-top: 5px;
+    }
     .Popular-Tour-part{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .popu-img{
         margin: 0 auto;
@@ -12,8 +21,34 @@
     }
     .parfect-place-section{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
+      
     }
+    .Popular-Tour-part{
+        flex-direction: column;
+        margin-bottom: 10px;
+        max-height: 200px;
+        min-width: 570px;
+       
+       
+    }
+    .row{
+        flex-direction: column;
+    }
+    .choosen-part{
+        flex-direction: column;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    .fotter-part{
+        flex-direction: column;
+    }
+    ..icons{
+        flex-direction: column;
+    }
+
+
+
     
 }
