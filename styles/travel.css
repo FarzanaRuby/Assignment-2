@@ -8,6 +8,76 @@ body{
 }
 /* common shared style */
 
+.header-section{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+}
+.header-part{
+    width: 50%;
+    display: flex;
+     gap: 10px;
+     margin-top: 20px;
+
+}
+.nav-bar {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 5px;
+    margin-top: 40px;
+
+}
+.anchor{
+    text-decoration: none;
+    color:  #424247;
+font-size: 1.1rem;
+font-weight: 400;
+
+   
+}
+.home{
+    color: #FF5400;
+
+font-size: 18px;
+font-weight: 700;
+
+}
+/* destination-section */
+.destination-section{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.row img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.row{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.choose{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.destination-pera{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+
+}
 /*  Our Popular Tours */
 .Popular-Tour-part{
     max-width: 1150px;
@@ -61,6 +131,104 @@ width:48%;
     padding-left: 40px;
     object-fit: cover;
 }
+/* choosen section */
+.choosen-section{
+    max-width: 1150px;
+    margin: 0 auto;
+    
+
+}
+.choosen-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.choosen-title{
+    color: #131318;
+font-size: 2.6rem;
+font-weight: 800;
+
+}
+.choosen-description{
+    color: rgba(19, 19, 24, 0.70);
+width: 643px;;
+font-size: 16px;
+font-weight: 400;
+padding-top: 20px;
+
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.first-card{
+    box-shadow: 0
+     4px 8px 0;
+     padding-left: 30px;
+     width: 573px;
+  height: 284px;
+  padding-top: 20px;
+  ; width: 30%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+
+}
+.card-icon1{
+    width: 46px;
+height: 34px;
+text-align: left;
+}
+.hotel{
+    color: #131318;
+text-align: left;
+font-size: 24px;
+font-weight: 800;
+}
+.hotel-description{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+padding-top: 20px;
+
+}
+.second-card{
+    box-shadow: 0
+    4px 8px 0;
+    padding-left: 30px;
+    width: 573px;
+ height: 284px;
+ padding-top: 20px;
+ border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+margin-left: 40px;
+width: 30%;
+margin-bottom: 30px;
+}
+.third-card{
+    box-shadow: 0
+    4px 8px 0;
+    padding-left: 30px;
+    width: 573px;
+ height: 284px;
+ padding-top: 20px;
+ border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin: 0 auto;
+width: 30%;
+margin-bottom: 50px;
+}
+
 /* parfect place section */
 .parfect-place-section{
     max-width: 1150px;
@@ -200,14 +368,13 @@ margin-top: 30px;
 }
 .icons{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
 }
 .last-part{
     color: #131318;
-font-family: Inter;
 font-size: 1rem;
 font-weight: 300;
 text-align: center;
