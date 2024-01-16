@@ -1,54 +1,80 @@
-@media screen and (max-width:600px) {
-    .banner-section{
-        width: 450px;
-        flex-direction: column;
-      
-      
-.
-    }
-    .text{
-margin-top: 5px;
-    }
-    .Popular-Tour-part{
-        flex-direction: column;
-        
-    }
-    .popu-img{
-        margin: 0 auto;
-    }
-    .popular-tour-title{
-        text-align: center;
-    }
-    .parfect-place-section{
-        flex-direction: column;
-        
-      
-    }
-    .Popular-Tour-part{
-        flex-direction: column;
-        margin-bottom: 10px;
-        max-height: 200px;
-        min-width: 570px;
-       
-       
-    }
-    .row{
-        flex-direction: column;
-    }
-    .choosen-part{
-        flex-direction: column;
-    }
-    .card-section{
-        flex-direction: column;
-    }
-    .fotter-part{
-        flex-direction: column;
-    }
-    ..icons{
-        flex-direction: column;
-    }
+@media screen and (max-width: 600px) {
+	.header-section {
+		max-width: 400px;
+	}
+	.nav-bar {
+		display: none;
+	}
 
+	.banner-section {
+		width: 450px;
+		height: 700px;
+		margin-top: 0;
+		flex-direction: column;
+	}
 
+	.form-section {
+		flex-direction: column;
+		height: 100%;
+	}
 
-    
+	.explore {
+		font-size: 3rem;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.hero {
+		font-size: 1rem;
+	}
+	.special {
+		font-size: 1rem;
+	}
+
+	.text {
+		margin-top: 5px;
+	}
+
+	.Popular-Tour-part {
+		flex-direction: column;
+	}
+
+	.popu-img {
+		margin: 0 auto;
+	}
+
+	.popular-tour-title {
+		text-align: center;
+	}
+
+	.parfect-place-section {
+		flex-direction: column;
+	}
+
+	.Popular-Tour-part {
+		flex-direction: column;
+		margin-bottom: 10px;
+		max-height: 200px;
+		min-width: 570px;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.choosen-part {
+		flex-direction: column;
+	}
+
+	.card-section {
+		flex-direction: column;
+	}
+
+	.fotter-part {
+		flex-direction: column;
+	}
+
+	.icons {
+		flex-direction: column;
+	}
 }
