@@ -90,6 +90,7 @@ flex-shrink: 0;
 
 	.fotter-part {
 		flex-direction: column;
+		width: 1500px;
 	}
 
 	.icons {
