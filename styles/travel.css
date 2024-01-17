@@ -119,14 +119,14 @@ body {
 	margin-top: 10px;
 }
 
-.choose {
+.choosen-part {
 	color: #131318;
 	text-align: center;
 	font-size: 40px;
 	font-weight: 800;
 }
 
-.destination-pera {
+.destination-pera{
 	color: rgba(19, 19, 24, 0.7);
 	text-align: center;
 	font-size: 16px;
@@ -142,14 +142,14 @@ body {
 	margin-top: 30px;
 }
 
-.popular-tour-title {
+.popular-tour-title{
 	color: #131318;
 	font-size: 2.6rem;
 	font-weight: 800;
 	padding-bottom: 20px;
 }
 
-.popu-description {
+.popu-description{
 	color: rgba(19, 19, 24, 0.7);
 	font-size: 1rem;
 	font-weight: 400;
@@ -181,40 +181,52 @@ body {
 }
 
 .popu-img {
-	width: 100%;
-	height: 100%;
-	margin-top: 50px;
-	border-radius: 10px 10px 10px 10px;
+	width: 90%;
+	height: 90%;
+	margin-top: 20px;
+	border-radius: 10px;
 	padding-left: 40px;
 	object-fit: cover;
+
 }
 
 /* choosen section */
 .choosen-section {
-	max-width: 1150px;
+	max-width: 950px;
 	margin: 0 auto;
 }
 
-.choosen-part {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+.choosen-part{
+padding-left: 200px;
+margin-bottom: 20px;
 }
 
 .choosen-title {
 	color: #131318;
-	font-size: 2.6rem;
+	font-size: 2rem;
 	font-weight: 800;
+	padding-left: 50px;
+    width: 300px;
+	text-align: center;
 }
 
 .choosen-description {
 	color: rgba(19, 19, 24, 0.7);
-	width: 643px;
+	width: 440px;
 	font-size: 16px;
 	font-weight: 400;
 	padding-top: 20px;
+	text-align: center;
+}
+/* rivew  part */
+ .rivew-part{
+   padding-top: 70px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .card-section {
@@ -283,6 +295,49 @@ body {
 	margin: 0 auto;
 	width: 30%;
 	margin-bottom: 50px;
+}
+/* deals-discount-img */
+.deals-decoration-section{
+	margin-left: 80px;
+}
+.discount-box{
+	box-shadow: 0 4px 8px 0;
+	padding-left: 30px;
+	width: 573px;
+	height: 284px;
+	padding-top: 20px;
+	border-radius: 16px;
+	border: 1px solid rgba(41, 206, 246, 0.2);
+	background: rgba(251, 181, 99, 0.05);
+	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 500px;
+	padding-left: 50px;
+}
+.deals-discount-img2{
+	margin-right: auto;
+}
+.tour-title{
+	color: #131318;
+font-size: 24px;
+font-weight: 800;
+
+}
+.offer-description{
+	color: #5A5A5D;
+font-weight: 400;
+font-size: 16px;
+}
+.price{
+	color: #FF5400;
+font-size: 20px;
+font-weight: 800;
 }
 
 /* parfect place section */
@@ -455,8 +510,4 @@ footer {
 	font-weight: 300;
 	text-align: center;
 	margin-top: 30px;
-}
-
-.hidden {
-	display: none;
 }
